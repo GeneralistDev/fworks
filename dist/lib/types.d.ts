@@ -1,5 +1,6 @@
 declare const TYPES: {
     PulumiComponent: symbol;
-    Injectable: symbol;
+    Component: symbol;
+    Constant: symbol;
 };
 export { TYPES };

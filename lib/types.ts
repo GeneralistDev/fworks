@@ -1,6 +1,7 @@
 const TYPES = {
     PulumiComponent: Symbol.for("PulumiComponent"),
-    Injectable: Symbol.for("Injectable"),
+    Component: Symbol.for("Component"),
+    Constant: Symbol.for("Constant"),
 };
 
 export { TYPES };

@@ -1,9 +1,8 @@
-export interface OnInit {
+import { Container } from "inversify";
+export interface ComponentLifeCycle {
     init: {
         (): void;
     };
-}
-export interface WithExports {
     getExports: {
         (): Object;
     };
@@ -12,4 +11,7 @@ export interface OnGetHandler {
     getHandler: {
         (): Function;
     };
+}
+export interface HasContainer {
+    container: Container;
 }

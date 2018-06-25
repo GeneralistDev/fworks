@@ -1,9 +1,9 @@
 {
-  "name": "pulumi-framework",
-  "version": "0.0.1",
-  "description": "A Framework wrapper for Pulumi introducing decorators and an IoC container",
-  "main": "index.js",
-  "repository": "git@github.com:rlgod/pulumi-framework.git",
+  "name": "@fworks/fworks",
+  "version": "0.0.10",
+  "description": "An easy framework for writing Typescript node.js",
+  "main": "dist/index.js",
+  "repository": "git@github.com:rlgod/fwo`rks.git",
   "author": "Daniel Parker <dparker.tech@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
