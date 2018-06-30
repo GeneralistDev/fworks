@@ -7,3 +7,4 @@ __export(require("./lib/types"));
 __export(require("./lib/decorators/component.decorator"));
 __export(require("./lib/decorators/injectable.decorators"));
 __export(require("./lib/decorators/module.decorator"));
+__export(require("./lib/decorators/requires.decorator"));
